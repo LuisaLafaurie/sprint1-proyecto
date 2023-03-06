@@ -99,7 +99,7 @@ const cajeroElectronico = () => {
         let sumaCajeroTotal = 0;
 
         billetesColombianos.forEach(e => {
-            e.cantidad += parseInt(prompt("Ingrese el monto a retirar " + e.valor));
+            e.cantidad += parseInt(prompt("Ingrese el monto a depositar " + e.valor));
             let denominacion = e.valor * e.cantidad;
             sumaCajeroTotal += denominacion;
 
