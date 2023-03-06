@@ -114,9 +114,8 @@ const cajeroElectronico = () => {
         //Hasta aquí pude llegar   
     };
 
-   // alert("Gracias por usar nuestros servicios");
-    //ingresoDeUsuario();
-    //cajeroElectronico();
+    ingresoDeUsuario();
+    cajeroElectronico();
 
 };
 
